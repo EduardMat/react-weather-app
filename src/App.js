@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather  defaultCity ="London"/>
       </div>
       <footer>
         This project was coded by <a href=" ">Sefora Noata </a> and is open
