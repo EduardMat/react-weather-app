@@ -56,7 +56,7 @@ if(weatherData.ready){
       </div>
 
         <div className="col-3">
-          <input type="submit" value="search" className="btn btn-primary" />
+          <input type="submit" value="search" className="btn btn-warning" />
         </div>
       </div>
     </form>
