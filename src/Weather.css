@@ -28,7 +28,7 @@
     color:#666666;
 }
 
-.Weather img{
+.Weather canvas{
     height:64px;
     display: inline;
     padding: 2px;
