@@ -9,15 +9,15 @@ export default function Weather(props) {
   function handleResponse(response){
   console.log(response.data);
   setWeatherData({
-    ready:true,
-    temperature:response.data.main.temp,
-    humidity:response.data.main.humidity,
+    ready: true,
+    temperature: response.data.main.temp,
+    humidity: response.data.main.humidity,
     date: new Date(response.data.dt * 1000),
-    description:response.data.weather[0].description,
-    iconUrl:" ",
-    wind:response.data.wind.speed,
-    city:response.data.name
-  } );
+    description: response.data.weather[0].description,
+    iconUrl:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+    wind: response.data.wind.speed,
+    city: response.data.name,
+  });
 }
 
 function search (){
