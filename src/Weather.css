@@ -1,6 +1,6 @@
 .Weather{
     border:2px solid grey;
-    border-radius: 5px;
+    border-radius: 10px;
     max-height: 500px;
     margin-top: 40px;
     padding:16px;
@@ -23,7 +23,7 @@
 
 }
 .Weather input {
-    margin:15px;
+    margin:40px;
 }
 
 .Weather .btn-warning {
@@ -53,4 +53,9 @@
     position: relative;
     top:-23px;
     color:#C2C2C2;
+}
+
+.Weather hr {
+    color:white;
+    font-weight: 300;
 }
