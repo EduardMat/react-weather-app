@@ -20,9 +20,13 @@ export default function  WeatherForecast(props){
 return (
   <div className="WeatherForecast">
     <div className="container">
-      <WeatherForecastDay data={forecast[0]}/>
-      </div>
+      <WeatherForecastDay data={forecast[0]} />
+      <WeatherForecastDay data={forecast[1]} />
+      <WeatherForecastDay data={forecast[2]} />
+      <WeatherForecastDay data={forecast[3]} />
+      <WeatherForecastDay data={forecast[4]} />
     </div>
+  </div>
 );
 
 }else{
