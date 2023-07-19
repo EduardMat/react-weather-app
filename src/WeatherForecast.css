@@ -1,0 +1,18 @@
+.WeatherForecast .container{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    margin:10px;
+}
+
+.WeatherForecast .card{
+    background-color:white;
+    width: 70px;
+    height: 110px;
+    margin: 5px;
+}
+
+.WeatherForecast-temperature-min{
+    opacity:0.5;
+    margin: 6px;
+}
