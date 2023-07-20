@@ -5,7 +5,7 @@ import "./Image.css";
 export default function ShowImage(){
     return (
         <div>
-            <img src="./WeatherImage.png" />
+            <img src="./WeatherImage.png" alt=" " />
         </div>
     );
 }
